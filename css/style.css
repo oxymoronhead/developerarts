@@ -18,3 +18,14 @@ body {
     text-align: center;
 }
 
+.active {
+    background-color: black;
+}
+
+a:link {
+    color: red !important;
+}
+
+a:visited {
+    color: red !important; 
+}
