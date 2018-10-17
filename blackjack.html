@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>DeveloperArts.net</title>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/2.0.4/css/bootstrap.css" type="text/css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/2.0.4/css/bootstrap-responsive.css" type="text/css"/>
-        <link rel="stylesheet" href="css/style.css" type="text/css"/>
-    </head>
-    <body>
+
+  <head>
+<link rel="shortcut icon" href="">
+    <title>DeveloperArts.net - Blackjack</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/2.0.4/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/2.0.4/css/bootstrap-responsive.css" type="text/css"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <style>body{background-color: green;}</style>
+  </head>
+
+    <body>  
             <div class="navbar navbar-fixed-top">
                 <div class="navbar-inner">
                     <div class="container-fluid">
@@ -39,6 +43,25 @@
                     </div>
                 </div>
             </div>
-        <p>Buddhism Page</p>
+        <h1 id="title">Blackjack!</h1>
+        <h4>by John Trafelet</h4>
+
+        <p id="text-area">Welcome to Blackjack!</p>
+        <button id="new-game-button">New Game!</button>
+        <button id="hit-button">Hit!</button>
+        <button id="stay-button">Stay</button>
+        <br><br>
+
+        <script src="./scripts/script.js"></script>
+        <p>Dealer Cards</p>
+        <br>
+        <img id="DealerCardSlot1" src="./img/Cards/blue_back.png" alt="Two of Clubs" width="200" height="300">
+        <img id="DealerCardSlot2" src="./img/Cards/blue_back.png" alt="Two of Clubs" width="200" height="300">
+        <br>
+        <p>Player Cards</p> 
+        <br>
+        <img id="PlayerCardSlot1" src="./img/Cards/blue_back.png" alt="Two of Clubs" width="200" height="300">
+        <img id="PlayerCardSlot2" src="./img/Cards/blue_back.png" alt="Two of Clubs" width="200" height="300">
+        <br>
     </body>
 </html>
