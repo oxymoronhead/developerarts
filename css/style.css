@@ -29,3 +29,14 @@ a:link {
 a:visited {
     color: red !important; 
 }
+
+.list {
+    text-align: left;
+    color: white;
+    text-decoration: underline;
+}
+
+li {
+    text-align: left; 
+    color: white; 
+}
