@@ -33,10 +33,13 @@ a:visited {
 .list {
     text-align: left;
     color: white;
-    text-decoration: underline;
 }
 
 li {
     text-align: left; 
     color: white; 
+}
+
+table {
+    border: 2px solid aqua;
 }
